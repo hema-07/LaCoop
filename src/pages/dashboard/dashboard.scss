@@ -1,0 +1,65 @@
+// #form {
+//   font-size: 20px;
+//   font-weight: bolder;
+//   background-color: lightgreen;
+// }
+// ion-label{
+//   font-size: 20px;
+//   font-weight: bolder;
+// }
+// #postbutton {
+//   margin-top: 75%;
+//   font-size: 20px;
+//     height: 20px !important;
+//     padding: 20px !important;
+//     color: black;
+//     align-items: center;
+//     font-weight: bold;
+// }
+#dashbg {
+  background: url("../assets/imgs/agriBackground.jpg");
+  background-size: cover;
+}
+#person {
+  height: 50px;
+  width: 50px;
+}
+#name {
+  font-size: 18px;
+}
+#logout {
+  margin-right: 0px;
+  margin-top: 10px;
+}
+
+ion-card {
+  // background-size: cover;
+  height: 95px;
+  background-repeat: no-repeat;
+}
+
+.card-background-page {
+
+  ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 1.5em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  // .card-subtitle {
+  //   font-size: 1.0em;
+  //   position: absolute;
+  //   top: 52%;
+  //   width: 100%;
+  //   color: #fff;
+  // }
+
+}
