@@ -1,0 +1,129 @@
+<html>
+<body id="bg">
+  <div class="bar bar-header" fixed>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-2>
+          <img id="person" style="border-radius:50%" src="../assets/imgs/claire.jpg" alt="img" height=""/>
+        </ion-col>
+        <ion-col col-2>
+          <p id="name">Claire</p>
+        </ion-col>
+        <ion-col col-4>
+          <img src="../assets/imgs/lacoopLogo.jpg">
+        </ion-col>
+        <ion-col col-2>
+
+        </ion-col>
+        <ion-col col-2>
+          <img src="../assets/imgs/logout.png" id="logout">
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+</div>
+<div class="bar bar-subheader" fixed>
+    <ion-grid>
+        <ion-row>
+          <ion-col col-2>
+              <img src="../assets/imgs/left-arrow.png" style="margin-top: 15px;" (click)="gobackdashboard()"/>
+          </ion-col>
+          <ion-col col-8 class="title">
+              <h2 style="font-size: 20px;font-weight: bold;">My Orders</h2>
+            </ion-col>
+            <ion-col col-2>
+              </ion-col>
+        </ion-row>
+        </ion-grid>
+</div>
+<div>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-8>
+        <ion-searchbar></ion-searchbar>
+      </ion-col>
+      <ion-col col-1>
+      </ion-col>
+      <ion-col col-1>
+        <img src="../assets/imgs/funnel.png"/>
+      </ion-col>
+      <ion-col col-1>
+        <img src="../assets/imgs/add-circular-button.png"/>
+      </ion-col>
+      <ion-col col-1>
+      </ion-col>
+    </ion-row>
+    <!--order details card -->
+    <!-- card start-->
+      <!-- <ion-card id="ordercard"> -->
+        <ion-row>
+            <ion-card (click)="finanaceInvoice()">
+          <ion-col>
+              <th>Order Id</th>
+              <td>OA01</td>
+              <!-- <td>OA02</td>
+              <td>OA11</td> -->
+          </ion-col>
+          <ion-col>
+            <th>Order Amount</th>
+            <td>200</td>
+            <!-- <td>190</td>
+            <td>210</td> -->
+          </ion-col>
+          <ion-col>
+            <th>Invoiced Amount</th>
+            <td>180</td>
+            <!-- <td></td>
+            <td>200</td> -->
+          </ion-col>
+        </ion-card>
+    </ion-row>
+    <ion-row>
+        <ion-card>
+                <ion-col>
+                    <th>Order Id</th>
+                    <!-- <td>OA01</td> -->
+                    <td>OA02</td>
+                    <!-- <td>OA11</td> -->
+                </ion-col>
+                <ion-col>
+                  <th>Order Amount</th>
+                  <!-- <td>200</td> -->
+                   <td>190</td> 
+                  <!-- <td>210</td> -->
+                </ion-col>
+                <ion-col>
+                  <th>Invoiced Amount</th>
+                  <!-- <td>180</td> -->
+                  <td></td>
+                  <!-- <td>200</td> -->
+                </ion-col>
+              </ion-card>
+            </ion-row>
+            <ion-row>
+              <ion-card>
+                    <ion-col>
+                        <th>Order Id</th>
+                        <!-- <td>OA01</td>
+                        <td>OA02</td> -->
+                        <td>OA11</td>
+                    </ion-col>
+                    <ion-col>
+                      <th>Order Amount</th>
+                      <!-- <td>200</td>
+                      <td>190</td> -->
+                      <td>210</td>
+                    </ion-col>
+                    <ion-col>
+                      <th>Invoiced Amount</th>
+                      <!-- <td>180</td>
+                      <td></td> -->
+                      <td>200</td>
+                    </ion-col>
+                  </ion-card>
+        </ion-row>
+      <!-- card end-->
+    
+  </ion-grid>
+</div>
+</body>
+</html>

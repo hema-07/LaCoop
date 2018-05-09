@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { SuccessPage } from '../success/success';
+import { OrderDashboard } from '../order-dashboard/order-dashboard';
+import { FinanceInvoice } from '../finance-invoice/finance-invoice';
+
 @Component({
-  selector: 'Dashboard',
+  selector: 'dashboard',
   templateUrl: 'dashboard.html'
 })
 
@@ -10,7 +12,10 @@ export class Dashboard {
   constructor(public navCtrl: NavController){
 
   }
-orderDetails() {
-       this.navCtrl.push(SuccessPage);
+  ordersdashboard() {
+       this.navCtrl.push(OrderDashboard);
+}
+  finance(){
+    this.navCtrl.push(FinanceInvoice);
 }
 }
