@@ -17,4 +17,7 @@ export class OrdersManagement {
   goBack2(){
     this.navCtrl.push(OrderDashboard);
   }
+    expandDetails1(){
+    this.navCtrl.push(OrdersManagementDetails);
+  }
 }

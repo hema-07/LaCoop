@@ -18,7 +18,6 @@ import { MatchReceipts } from '../pages/finance-matchreceipts/match-receipts';
 import { PastJournals } from '../pages/finance-pastjournals/past-journals';
 import { ProcessSupplierInvoice } from '../pages/finance-processsupplierinvoice/process-supplier-invoice';
 import { FinanceInvoice } from '../pages/finance-invoice/finance-invoice';
-import { AlertController } from 'ionic-angular';
 
 @NgModule({
   declarations: [

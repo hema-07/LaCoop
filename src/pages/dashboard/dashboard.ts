@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { OrderDashboard } from '../order-dashboard/order-dashboard';
-import { FinanceInvoice } from '../finance-invoice/finance-invoice';
+import { FinanceDashboard } from '../finance-dashboard/finance';
 
 @Component({
   selector: 'dashboard',
@@ -16,6 +16,6 @@ export class Dashboard {
        this.navCtrl.push(OrderDashboard);
 }
   finance(){
-    this.navCtrl.push(FinanceInvoice);
+    this.navCtrl.push(FinanceDashboard);
 }
 }

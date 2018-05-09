@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { Dashboard } from '../dashboard/dashboard';
-
+import { PastJournals } from '../finance-pastjournals/past-journals';
 @Component({
   selector: 'page-invoice',
   templateUrl: 'finance-invoice.html'
@@ -11,7 +10,9 @@ export class FinanceInvoice {
   constructor(public navCtrl: NavController) {
 
   }
-  finanaceInvoice(){
-  }
 
+orderDetails(event){
+    console.log("clicked");
+  this.navCtrl.push(PastJournals);
+  }
 }

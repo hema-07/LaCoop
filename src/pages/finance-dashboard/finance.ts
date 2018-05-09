@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 // import { OrdersManagement } from '../orders-management/orders-management';
-
+import { FinanceInvoice } from '../finance-invoice/finance-invoice';
 
 @Component({
   selector: 'page-finance',
@@ -13,7 +13,7 @@ export class FinanceDashboard {
 
   }
 
-//    finance() {
-//      this.navCtrl.push();
-//    }
+   financeInvoice() {
+     this.navCtrl.push(FinanceInvoice);
+   }
 }
