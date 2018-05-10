@@ -42,6 +42,9 @@
       <ion-col col-12 col-sm>
 
         <ion-list>
+                    <ion-item>
+            <ion-label id="la">Item ID: ch_01&nbsp;&nbsp;Item Name: Chicken</ion-label>
+          </ion-item>
             <ion-item>
             <ion-label>Job Owner</ion-label>
             <ion-input clearInput></ion-input>
@@ -73,6 +76,45 @@
 
       </ion-col>
     </ion-row>
+<ion-row class="container">
+      <ion-col col-12 col-sm>
+
+        <ion-list>
+           <ion-item id="la">
+            <ion-label>Item ID: wh_01&nbsp;&nbsp;Item Name: Wheat</ion-label>
+          </ion-item>
+            <ion-item>
+            <ion-label>Job Owner</ion-label>
+            <ion-input clearInput></ion-input>
+          </ion-item>
+        <br><br>
+<ion-item>
+  <ion-label>Priority</ion-label>
+  <ion-select [(ngModel)]="Priority">
+    <ion-option value="l">Low</ion-option>
+    <ion-option value="m">Medium</ion-option>
+        <ion-option value="h">High</ion-option>
+  </ion-select>
+</ion-item> 
+        <br><br>
+ <ion-item>
+  <ion-label>JobType</ion-label>
+  <ion-select [(ngModel)]="JobType">
+    <ion-option value="o1">Fulfill From Inventory</ion-option>
+    <ion-option value="o2">Make to order</ion-option>
+        <ion-option value="o3">others</ion-option>
+  </ion-select>
+</ion-item> 
+        <br><br>
+            <ion-item>
+            <ion-label>Description</ion-label>
+            <ion-input clearInput></ion-input>
+          </ion-item>
+        </ion-list>
+
+      </ion-col>
+    </ion-row>
+
     </ion-card>
             <ion-row>
           <ion-col col-1>

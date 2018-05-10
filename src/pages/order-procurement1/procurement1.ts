@@ -31,7 +31,7 @@ make(){
         {
           text: 'Yes',
           handler: () => {
-            this.navCtrl.push(ShipmentAdvice);
+            this.navCtrl.push(Procurement2);
           }
         }
       ]
