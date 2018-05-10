@@ -11,18 +11,19 @@ page-shipment {
     color: white;
   }
 table, td, th{
-  border: 2px solid;
+  border: 2px solid white;
+    padding:2px;
+    text-align:center;
 }
 ion-label{
   font-weight:bold;
   
 }
-
-}
-#procard{
+#procard1{
    height: 250px;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0.5);
     padding-top:15px;
-
+    text-align:center;
+}
 }

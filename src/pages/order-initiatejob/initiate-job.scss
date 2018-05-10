@@ -27,21 +27,22 @@ page-initiate {
 //     font-weight: bold;
 //     background-color: rgba(255, 255, 255, 0.5);
 //   }
-[col-4]{
+[col-6]{
     font-size: 18px;
+    padding-left:25px;
 }
 
 [col-6] p{
     margin-top:10px;
     font-size: 18px;
 }
- #bgac {
+ #bgac1 {
     background: url("../assets/imgs/agriBackground.jpg");
     background-size: cover;
 }
 #con{
         background-color: rgba(255, 255, 255, 0.5);
-     
+        height:400px;
 }
 #divider{
     background-color:#4CAF50;

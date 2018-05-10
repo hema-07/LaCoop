@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { OrderDashboard } from '../order-dashboard/order-dashboard';
 import { AlertController } from 'ionic-angular';
+import { Procurement } from '../order-procurement/procurement';
 @Component({
   selector: 'page-shipment',
   templateUrl: 'shipment-advice.html'
@@ -28,5 +29,9 @@ export class ShipmentAdvice {
     });
     confirm.present();
 
+  }
+  goBack7()
+  {
+    this.navCtrl.push(Procurement);
   }
 }

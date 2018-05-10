@@ -21,14 +21,16 @@ page-initiate-detail {
       background-color: #4CAF50;
       color: white;
   }
-//     #init-card{
-//     background-repeat: no-repeat;
-//     font-size: 22px;
-//     font-weight: bold;
-//     background-color: rgba(255, 255, 255, 0.5);
-//   }
-[col-4]{
+    #init-card{
+    background-repeat: no-repeat;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+[col-6]{
     font-size: 18px;
+    
+    padding-left:25px;
 }
 
 [col-6] p{
@@ -41,7 +43,7 @@ page-initiate-detail {
 }
 #con{
         background-color: rgba(255, 255, 255, 0.5);
-     
+        height:400px;
 }
 #divider{
     background-color:#4CAF50;
