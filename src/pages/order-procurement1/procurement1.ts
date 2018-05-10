@@ -20,7 +20,7 @@ goBack6()
 }
 make(){
     let confirm = this.alertCtrl.create({
-      title: 'PO has been created. Proceed to shipment',
+      title: 'Job Details has been Updated. PO has been created for Item 2. Proceed to Shipment',
       buttons: [
         {
           text: 'No',

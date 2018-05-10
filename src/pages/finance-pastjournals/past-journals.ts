@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
 import { MatchReceipts } from '../finance-matchreceipts/match-receipts';
+import { FinanceInvoice } from '../finance-invoice/finance-invoice';
 @Component({
   selector: 'page-past-journals',
   templateUrl: 'past-journals.html'
@@ -14,7 +15,7 @@ export class PastJournals {
 showConfirm1(event) {
       let confirm = this.alertCtrl.create({
         title: 'Create Invoice',
-        message: 'Do you want to create Invoice of 500$ for order OA_01',
+        message: 'Create Invoice of 500$ for order OA_01?',
         buttons: [
           {
             text: 'No',
@@ -33,6 +34,8 @@ showConfirm1(event) {
       });
       confirm.present();
     }
-
+gobackdashboard(){
+  this.navCtrl.push(FinanceInvoice);
+}
 
 }
