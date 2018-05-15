@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { Procurement } from '../order-procurement/procurement';
 import { OrderDashboard } from '../order-dashboard/order-dashboard';
 
 @Component({

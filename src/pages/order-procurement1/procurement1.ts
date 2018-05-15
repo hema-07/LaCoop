@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { ShipmentAdvice } from '../order-shipmentadvice/shipment-advice';
 import { AlertController } from 'ionic-angular';
 import { InitiateJob1 } from '../order-initiatejob1/initiate-job1';
 import { Procurement2 } from '../order-procurement2/procurement2';
