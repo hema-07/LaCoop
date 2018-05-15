@@ -5,7 +5,7 @@ import { InitiateJob1 } from '../order-initiatejob1/initiate-job1';
 import { Procurement2 } from '../order-procurement2/procurement2';
 @Component({
   selector: 'page-Procurement1',
-  templateUrl: 'Procurement1.html'
+  templateUrl: 'procurement1.html'
 })
 
 export class Procurement1 {

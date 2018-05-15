@@ -5,7 +5,7 @@ import { AlertController } from 'ionic-angular';
 import { InitiateJob } from '../order-initiatejob/initiate-job';
 @Component({
   selector: 'page-Procurement',
-  templateUrl: 'Procurement.html'
+  templateUrl: 'procurement.html'
 })
 
 export class Procurement {

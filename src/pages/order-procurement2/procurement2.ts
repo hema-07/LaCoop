@@ -5,7 +5,7 @@ import { AlertController } from 'ionic-angular';
 import { OrderDashboard } from '../order-dashboard/order-dashboard';
 @Component({
   selector: 'page-Procurement2',
-  templateUrl: 'Procurement2.html'
+  templateUrl: 'procurement2.html'
 })
 
 export class Procurement2 {
